@@ -17,7 +17,7 @@
 // Usando la classe active già scritta in css
 // Quando clicco sull'icona del burgher menu aggiungo la classe active
 // già presente in css che da display: block.
-$('.header-right i').click(
+$('.header-right > a').click(
   function() {
     $('.hamburger-menu').addClass('active');
   }
